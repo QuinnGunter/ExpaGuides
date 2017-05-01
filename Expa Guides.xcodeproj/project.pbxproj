@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E88756401EB7BAC00018622C /* GuideDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887563F1EB7BAC00018622C /* GuideDescriptionVC.swift */; };
 		E8DA3DEC1EB791A900EE9CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3DEB1EB791A900EE9CB2 /* AppDelegate.swift */; };
 		E8DA3DF31EB791A900EE9CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DA3DF11EB791A900EE9CB2 /* Main.storyboard */; };
 		E8DA3DF51EB791A900EE9CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DA3DF41EB791A900EE9CB2 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E887563F1EB7BAC00018622C /* GuideDescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideDescriptionVC.swift; sourceTree = "<group>"; };
 		E8DA3DE81EB791A900EE9CB2 /* Expa Guides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expa Guides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DA3DEB1EB791A900EE9CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8DA3DF21EB791A900EE9CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				E8DA3DFF1EB7935D00EE9CB2 /* SearchVC.swift */,
+				E887563F1EB7BAC00018622C /* GuideDescriptionVC.swift */,
 				E8DA3E011EB793C900EE9CB2 /* SavedVC.swift */,
 				E8DA3E031EB7942200EE9CB2 /* BookingsVC.swift */,
 				E8DA3E051EB7949100EE9CB2 /* MessagesVC.swift */,
@@ -173,6 +176,7 @@
 			files = (
 				E8DA3E081EB794E600EE9CB2 /* ProfileVC.swift in Sources */,
 				E8DA3E0C1EB79DDD00EE9CB2 /* DataItem.swift in Sources */,
+				E88756401EB7BAC00018622C /* GuideDescriptionVC.swift in Sources */,
 				E8DA3E041EB7942200EE9CB2 /* BookingsVC.swift in Sources */,
 				E8DA3E001EB7935D00EE9CB2 /* SearchVC.swift in Sources */,
 				E8DA3E021EB793C900EE9CB2 /* SavedVC.swift in Sources */,
@@ -344,6 +348,7 @@
 				E8DA3DFE1EB791A900EE9CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
