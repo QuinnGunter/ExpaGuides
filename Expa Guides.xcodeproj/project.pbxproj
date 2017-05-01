@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E8DA3DEC1EB791A900EE9CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3DEB1EB791A900EE9CB2 /* AppDelegate.swift */; };
-		E8DA3DEE1EB791A900EE9CB2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3DED1EB791A900EE9CB2 /* FirstViewController.swift */; };
-		E8DA3DF01EB791A900EE9CB2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3DEF1EB791A900EE9CB2 /* SecondViewController.swift */; };
 		E8DA3DF31EB791A900EE9CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DA3DF11EB791A900EE9CB2 /* Main.storyboard */; };
 		E8DA3DF51EB791A900EE9CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DA3DF41EB791A900EE9CB2 /* Assets.xcassets */; };
 		E8DA3DF81EB791A900EE9CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DA3DF61EB791A900EE9CB2 /* LaunchScreen.storyboard */; };
+		E8DA3E001EB7935D00EE9CB2 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3DFF1EB7935D00EE9CB2 /* SearchVC.swift */; };
+		E8DA3E021EB793C900EE9CB2 /* SavedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3E011EB793C900EE9CB2 /* SavedVC.swift */; };
+		E8DA3E041EB7942200EE9CB2 /* BookingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3E031EB7942200EE9CB2 /* BookingsVC.swift */; };
+		E8DA3E061EB7949100EE9CB2 /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3E051EB7949100EE9CB2 /* MessagesVC.swift */; };
+		E8DA3E081EB794E600EE9CB2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3E071EB794E600EE9CB2 /* ProfileVC.swift */; };
+		E8DA3E0C1EB79DDD00EE9CB2 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3E0B1EB79DDD00EE9CB2 /* DataItem.swift */; };
+		E8DA3E0E1EB79E5800EE9CB2 /* DataItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3E0D1EB79E5800EE9CB2 /* DataItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8DA3DE81EB791A900EE9CB2 /* Expa Guides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expa Guides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DA3DEB1EB791A900EE9CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8DA3DED1EB791A900EE9CB2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E8DA3DEF1EB791A900EE9CB2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E8DA3DF21EB791A900EE9CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8DA3DF41EB791A900EE9CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8DA3DF71EB791A900EE9CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8DA3DF91EB791A900EE9CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DA3DFF1EB7935D00EE9CB2 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVC.swift; path = ../SearchVC.swift; sourceTree = "<group>"; };
+		E8DA3E011EB793C900EE9CB2 /* SavedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedVC.swift; sourceTree = "<group>"; };
+		E8DA3E031EB7942200EE9CB2 /* BookingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsVC.swift; sourceTree = "<group>"; };
+		E8DA3E051EB7949100EE9CB2 /* MessagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
+		E8DA3E071EB794E600EE9CB2 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E8DA3E0B1EB79DDD00EE9CB2 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		E8DA3E0D1EB79E5800EE9CB2 /* DataItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +67,35 @@
 			isa = PBXGroup;
 			children = (
 				E8DA3DEB1EB791A900EE9CB2 /* AppDelegate.swift */,
-				E8DA3DED1EB791A900EE9CB2 /* FirstViewController.swift */,
-				E8DA3DEF1EB791A900EE9CB2 /* SecondViewController.swift */,
+				E8DA3E0A1EB7951900EE9CB2 /* View Controllers */,
+				E8DA3E0F1EB7AF9400EE9CB2 /* Search DataItem */,
 				E8DA3DF11EB791A900EE9CB2 /* Main.storyboard */,
-				E8DA3DF41EB791A900EE9CB2 /* Assets.xcassets */,
 				E8DA3DF61EB791A900EE9CB2 /* LaunchScreen.storyboard */,
+				E8DA3DF41EB791A900EE9CB2 /* Assets.xcassets */,
 				E8DA3DF91EB791A900EE9CB2 /* Info.plist */,
 			);
 			path = "Expa Guides";
+			sourceTree = "<group>";
+		};
+		E8DA3E0A1EB7951900EE9CB2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA3DFF1EB7935D00EE9CB2 /* SearchVC.swift */,
+				E8DA3E011EB793C900EE9CB2 /* SavedVC.swift */,
+				E8DA3E031EB7942200EE9CB2 /* BookingsVC.swift */,
+				E8DA3E051EB7949100EE9CB2 /* MessagesVC.swift */,
+				E8DA3E071EB794E600EE9CB2 /* ProfileVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E8DA3E0F1EB7AF9400EE9CB2 /* Search DataItem */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA3E0D1EB79E5800EE9CB2 /* DataItemCell.swift */,
+				E8DA3E0B1EB79DDD00EE9CB2 /* DataItem.swift */,
+			);
+			name = "Search DataItem";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +130,7 @@
 				TargetAttributes = {
 					E8DA3DE71EB791A900EE9CB2 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 35YT2A3NRR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,9 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DA3DF01EB791A900EE9CB2 /* SecondViewController.swift in Sources */,
+				E8DA3E081EB794E600EE9CB2 /* ProfileVC.swift in Sources */,
+				E8DA3E0C1EB79DDD00EE9CB2 /* DataItem.swift in Sources */,
+				E8DA3E041EB7942200EE9CB2 /* BookingsVC.swift in Sources */,
+				E8DA3E001EB7935D00EE9CB2 /* SearchVC.swift in Sources */,
+				E8DA3E021EB793C900EE9CB2 /* SavedVC.swift in Sources */,
+				E8DA3E061EB7949100EE9CB2 /* MessagesVC.swift in Sources */,
+				E8DA3E0E1EB79E5800EE9CB2 /* DataItemCell.swift in Sources */,
 				E8DA3DEC1EB791A900EE9CB2 /* AppDelegate.swift in Sources */,
-				E8DA3DEE1EB791A900EE9CB2 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35YT2A3NRR;
 				INFOPLIST_FILE = "Expa Guides/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quintin.Expa-Guides";
@@ -278,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35YT2A3NRR;
 				INFOPLIST_FILE = "Expa Guides/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quintin.Expa-Guides";
