@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E88756401EB7BAC00018622C /* GuideDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887563F1EB7BAC00018622C /* GuideDescriptionVC.swift */; };
+		E88756431EB93B410018622C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E88756421EB93B410018622C /* libsqlite3.tbd */; };
+		E88756541EB93C650018622C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E88756491EB93C650018622C /* FMDatabase.m */; };
+		E88756551EB93C650018622C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E887564B1EB93C650018622C /* FMDatabaseAdditions.m */; };
+		E88756561EB93C650018622C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E887564D1EB93C650018622C /* FMDatabasePool.m */; };
+		E88756571EB93C650018622C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E887564F1EB93C650018622C /* FMDatabaseQueue.m */; };
+		E88756581EB93C650018622C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E88756521EB93C650018622C /* FMResultSet.m */; };
+		E88756591EB93C650018622C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E88756531EB93C650018622C /* Info.plist */; };
 		E8DA3DEC1EB791A900EE9CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA3DEB1EB791A900EE9CB2 /* AppDelegate.swift */; };
 		E8DA3DF31EB791A900EE9CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DA3DF11EB791A900EE9CB2 /* Main.storyboard */; };
 		E8DA3DF51EB791A900EE9CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DA3DF41EB791A900EE9CB2 /* Assets.xcassets */; };
@@ -23,6 +30,20 @@
 
 /* Begin PBXFileReference section */
 		E887563F1EB7BAC00018622C /* GuideDescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideDescriptionVC.swift; sourceTree = "<group>"; };
+		E88756421EB93B410018622C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E88756441EB93B880018622C /* Expa Guides-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Expa Guides-Bridging-Header.h"; sourceTree = "<group>"; };
+		E88756481EB93C650018622C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E88756491EB93C650018622C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E887564A1EB93C650018622C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E887564B1EB93C650018622C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E887564C1EB93C650018622C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E887564D1EB93C650018622C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E887564E1EB93C650018622C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E887564F1EB93C650018622C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E88756501EB93C650018622C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		E88756511EB93C650018622C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E88756521EB93C650018622C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		E88756531EB93C650018622C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8DA3DE81EB791A900EE9CB2 /* Expa Guides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expa Guides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DA3DEB1EB791A900EE9CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8DA3DF21EB791A900EE9CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,17 +64,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88756431EB93B410018622C /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E88756411EB93B410018622C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E88756421EB93B410018622C /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E88756471EB93C650018622C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				E88756481EB93C650018622C /* FMDatabase.h */,
+				E88756491EB93C650018622C /* FMDatabase.m */,
+				E887564A1EB93C650018622C /* FMDatabaseAdditions.h */,
+				E887564B1EB93C650018622C /* FMDatabaseAdditions.m */,
+				E887564C1EB93C650018622C /* FMDatabasePool.h */,
+				E887564D1EB93C650018622C /* FMDatabasePool.m */,
+				E887564E1EB93C650018622C /* FMDatabaseQueue.h */,
+				E887564F1EB93C650018622C /* FMDatabaseQueue.m */,
+				E88756501EB93C650018622C /* FMDB.h */,
+				E88756511EB93C650018622C /* FMResultSet.h */,
+				E88756521EB93C650018622C /* FMResultSet.m */,
+				E88756531EB93C650018622C /* Info.plist */,
+			);
+			name = fmdb;
+			path = "../../../Downloads/fmdb-master/src/fmdb";
+			sourceTree = "<group>";
+		};
 		E8DA3DDF1EB791A900EE9CB2 = {
 			isa = PBXGroup;
 			children = (
 				E8DA3DEA1EB791A900EE9CB2 /* Expa Guides */,
 				E8DA3DE91EB791A900EE9CB2 /* Products */,
+				E88756411EB93B410018622C /* Frameworks */,
+				E88756441EB93B880018622C /* Expa Guides-Bridging-Header.h */,
+				E88756471EB93C650018622C /* fmdb */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +187,7 @@
 					E8DA3DE71EB791A900EE9CB2 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 35YT2A3NRR;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -161,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88756591EB93C650018622C /* Info.plist in Resources */,
 				E8DA3DF81EB791A900EE9CB2 /* LaunchScreen.storyboard in Resources */,
 				E8DA3DF51EB791A900EE9CB2 /* Assets.xcassets in Resources */,
 				E8DA3DF31EB791A900EE9CB2 /* Main.storyboard in Resources */,
@@ -175,11 +230,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8DA3E081EB794E600EE9CB2 /* ProfileVC.swift in Sources */,
+				E88756561EB93C650018622C /* FMDatabasePool.m in Sources */,
+				E88756581EB93C650018622C /* FMResultSet.m in Sources */,
 				E8DA3E0C1EB79DDD00EE9CB2 /* DataItem.swift in Sources */,
 				E88756401EB7BAC00018622C /* GuideDescriptionVC.swift in Sources */,
+				E88756571EB93C650018622C /* FMDatabaseQueue.m in Sources */,
+				E88756541EB93C650018622C /* FMDatabase.m in Sources */,
 				E8DA3E041EB7942200EE9CB2 /* BookingsVC.swift in Sources */,
 				E8DA3E001EB7935D00EE9CB2 /* SearchVC.swift in Sources */,
 				E8DA3E021EB793C900EE9CB2 /* SavedVC.swift in Sources */,
+				E88756551EB93C650018622C /* FMDatabaseAdditions.m in Sources */,
 				E8DA3E061EB7949100EE9CB2 /* MessagesVC.swift in Sources */,
 				E8DA3E0E1EB79E5800EE9CB2 /* DataItemCell.swift in Sources */,
 				E8DA3DEC1EB791A900EE9CB2 /* AppDelegate.swift in Sources */,
@@ -307,11 +367,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 35YT2A3NRR;
 				INFOPLIST_FILE = "Expa Guides/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quintin.Expa-Guides";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Expa Guides-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -320,11 +383,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 35YT2A3NRR;
 				INFOPLIST_FILE = "Expa Guides/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quintin.Expa-Guides";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Expa Guides-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
